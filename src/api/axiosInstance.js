@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL : 'https//blogapp.nutrix.fun'
+    baseURL : 'https://jobapp.nutrix.fun'
 })
 
 axiosInstance.interceptors.request.use(
