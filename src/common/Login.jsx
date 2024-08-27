@@ -50,7 +50,7 @@ const Login = () => {
           </div>
           <div>
             <div className="capitalize text-xl mb-2">
-              <label htmlFor="email">Username</label>
+              <label className="text-gray-700" htmlFor="email">Email</label>
             </div>
             <div className="border-2 relative">
               <span className="absolute px-2 inset-y-0 left-0 flex items-center text-gray-400">
@@ -74,9 +74,9 @@ const Login = () => {
                 id="email"
                 name="email"
                 onChange={handleChange}
-                className="w-full placeholder:capitalize px-8 py-1.5 outline-blue-800"
+                className="w-full  text-black placeholder:capitalize px-8 py-1.5 outline-blue-800"
                 type="text"
-                placeholder="Enter username"
+                placeholder="Enter Email"
               />
             </div>
             {errors.email && touched.email && (
@@ -85,7 +85,7 @@ const Login = () => {
           </div>
           <div className="mt-4">
             <div className="capitalize text-xl mb-2">
-              <label htmlFor="password">Password</label>
+              <label className="text-gray-700" htmlFor="password ">Password</label>
             </div>
             <div className="border-2 relative">
               <span className="absolute px-2 inset-y-0 left-0 flex items-center text-gray-400">
@@ -109,7 +109,7 @@ const Login = () => {
                 id="password"
                 name="password"
                 onChange={handleChange}
-                className="w-full placeholder:capitalize px-8 py-1.5 outline-blue-800"
+                className="w-full text-black placeholder:capitalize px-8 py-1.5 outline-blue-800"
                 type="password"
                 placeholder="Enter password"
               />

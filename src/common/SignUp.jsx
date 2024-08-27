@@ -37,7 +37,7 @@ const SignUp = () => {
           <div>
             <div>
               <div class="capitalize text-lg mb-2">
-                <label>username</label>
+                <label className="text-gray-700">username</label>
               </div>
               <div class="border-2 relative">
                 <span class="absolute px-2 inset-y-0 left-0 flex items-center text-gray-400">
@@ -72,7 +72,7 @@ const SignUp = () => {
             </div>
             <div class="mt-2">
               <div class="capitalize text-lg mb-2">
-                <label>Email</label>
+                <label className="text-gray-700">Email</label>
               </div>
               <div class="border-2 relative">
                 <span class="absolute px-2 inset-y-0 left-0 flex items-center text-gray-400">
@@ -106,7 +106,7 @@ const SignUp = () => {
             </div>
             <div class="mt-2">
               <div class="capitalize text-lg mb-2">
-                <label>password</label>
+                <label className="text-gray-700">password</label>
               </div>
               <div class="border-2 relative">
                 <span class="absolute px-2 inset-y-0 left-0 flex items-center text-gray-400">
@@ -141,7 +141,7 @@ const SignUp = () => {
             </div>
             <div class="mt-2">
               <div class="capitalize text-lg     mb-2">
-                <label>confirm password</label>
+                <label className="text-gray-700">confirm password</label>
               </div>
               <div class="border-2 relative">
                 <span class="absolute px-2 inset-y-0 left-0 flex items-center text-gray-400">
