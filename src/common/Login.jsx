@@ -45,8 +45,8 @@ const Login = () => {
     <div className="bg-gray-200 h-screen flex items-center justify-center p-4 dark:bg-slate-800">
       <div className="bg-white p-6 shadow-lg rounded-xl w-96 dark:bg-slate-100">
         <form onSubmit={handleSubmit}>
-          <div className="text-2xl text-blue-800 font-bold capitalize text-center mb-4">
-            <h3>Welcome back!</h3>
+          <div className="text-2xl text-blue-800  capitalize text-center mb-4">
+            <h3 className="font-Rubik">Welcome back!</h3>
           </div>
           <div>
             <div className="capitalize text-xl mb-2">
@@ -122,7 +122,7 @@ const Login = () => {
           <div className="mt-4">
             <button
               type="submit"
-              className="bg-blue-800 text-xl text-white font-medium uppercase p-2 rounded-lg w-full opacity-90 hover:opacity-100"
+              className=" bg-blue-800 text-xl text-white font-Rubik uppercase p-2 rounded-lg w-full opacity-90 hover:opacity-100"
             >
               Login
             </button>

@@ -15,7 +15,7 @@ function NavBar() {
   return (
     <div className="navbar bg-blue-500 sticky top-0 z-50">
       <div className="flex-1">
-        <button className="btn btn-ghost text-xl text-white" onClick={() => navigate("/")}>
+        <button className="btn btn-ghost font-Rubik text-xl text-white" onClick={() => navigate("/")}>
           Job-App
         </button>
       </div>

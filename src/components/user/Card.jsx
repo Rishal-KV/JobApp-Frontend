@@ -43,8 +43,8 @@ function JobCard({ post }) {
         src="https://media.istockphoto.com/id/1173054931/photo/jobs-text-on-wooden-blocks-over-keyboard.jpg?s=612x612&w=0&k=20&c=1d3E26tHR7Yf7AUuGomDISXZTQ_u8PxizqTvo3bvSTY="
         alt="Company Logo"
       />
-      <div className="font-bold text-lg mb-2">
-        {post.title || "Software Engineer"}
+      <div className="font-Rubick text-black text-lg mb-2">
+        {post.position || "Software Engineer"}
       </div>
       <p className="text-gray-700 text-sm">
         <strong>Company:</strong> {post.companyName}

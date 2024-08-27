@@ -10,6 +10,9 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      fontFamily :{
+         Rubik : ["Rubik", "sans-serif"]
+      }
     },
   },
   plugins: [ require('daisyui'), require('flowbite/plugin')],

@@ -28,7 +28,6 @@ function EditPost({ id, setJobs, onClose }) {
       console.error("Error fetching location suggestions:", error);
     }
   };
-        console.log(suggestions,"suggg");
 
 
   const formik = useFormik({

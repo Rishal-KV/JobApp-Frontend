@@ -31,9 +31,8 @@ export function NavbarDefault() {
     <Navbar className="mx-auto  max-w-screen-3xl px-4 py-2 lg:px-8 lg:py-4 bg-blue-500">
       <div className="container mx-auto  flex items-center justify-between text-blue-white-900">
         <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium text-white"
+          
+          className="mr-4 cursor-pointer py-1.5 font-medium  font-Rubik text-white"
         >
           Job-App
         </Typography>
