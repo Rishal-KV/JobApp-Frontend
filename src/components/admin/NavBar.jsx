@@ -97,7 +97,9 @@ export function NavbarDefault() {
       <MobileNav open={openNav}>
         <div className="container mx-auto">
           <div className="flex items-center gap-x-1">
-            <Button fullWidth variant="text" size="sm" className="">
+            <Button  onClick={() => {
+              navigate("/admin/postjob");
+            }} fullWidth variant="text" size="sm" className="">
               <span>Add Job</span>
             </Button>
             <Button
